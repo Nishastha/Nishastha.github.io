@@ -1,0 +1,388 @@
+.admission-banner {
+  height: 50vh;
+  width: 100vw;
+  background: url("https://images.unsplash.com/photo-1535982330050-f1c2fb79ff78?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  color: white;
+
+  .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: #00000097;
+    position: absolute;
+  }
+
+  h1,
+  p {
+    z-index: 1;
+    text-shadow: 1px 2px 4px #000000bf;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 20px;
+    color: white;
+  
+}
+
+h3 {
+  color: white !important;
+  padding: 20px 30px;
+  background: linear-gradient(135deg, #28a745 0%, #20c957 10%);
+  z-index: 100;
+  border-radius: 60px;
+  margin-top: 30px;
+}
+}
+
+.quick-info {
+  padding: 50px;
+  background-color: #f8f9fa;
+
+  h4 {
+    color: #212529;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .card-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    box-shadow: 4px 4px 8px #0000005e;
+    padding: 30px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+
+    i {
+      color: white;
+      background-color: #667eea;
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      font-size: 30px;
+      align-content: center;
+    }
+
+    h3 {
+      color: #212529;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    p {
+      color: #6c756c;
+    }
+  }
+}
+
+.admission-requirment {
+  padding: 50px;
+  text-align: center;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+
+  .card {
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    border-left: 5px solid #3498db;
+  }
+
+  .card-title {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    color: #3498db;
+    margin-bottom: 20px;
+    gap: 15px;
+  }
+
+  .card-content {
+    color: #495057;
+
+    p {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.application-from {
+  padding: 80px;
+}
+
+.form-container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: lightgray;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 10px #0000001a;
+
+  h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 2rem;
+  }
+}
+
+.form-section {
+  padding: 25px;
+  border-radius: 10px;
+  border-left: 5px solid #3498db;
+  margin-bottom: 30px;
+  background-color: white;
+}
+.form-row {
+  display: flex;
+  gap: 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+label {
+  font-weight: 600;
+  color: #212529;
+  font-size: 0.95rem;
+}
+input,
+select,
+textarea {
+  padding: 1rem;
+  border: 2px solid #e9ece9;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background: white;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border: 3px solid blueviolet;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  color: #3498db;
+}
+.upload {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 20px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #e9ecef;
+
+  p {
+    font-size: 40px;
+  }
+
+  a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  span {
+    font-size: 15px;
+    color: #6c756c;
+  }
+}
+.upload:hover {
+  border: 3px dashed #3498db;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+
+  button {
+    border: none;
+    outline: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+  }
+}
+
+  .submit-button {
+    background: linear-gradient(135deg, #28a745 0%, #20c957 100%);
+  }
+  .reset-button {
+    background: linear-gradinet(135deg,#6c756c 0%, #495057 100%);
+    background-color: #6c756c;
+  }
+
+      footer {
+  height: 50vh;
+  background-color: #34495e;
+  color:#bdc3c7;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-contenct {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  align-items: center;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 25px 0;
+   background-color: #34495e;
+}
+
+       .admission-dates{
+        background-color: purple;
+        color: white;
+       .why-choose-card-container{
+      display: flex;
+      gap: 30px;
+        }
+        h1{
+          text-align: center;
+          margin-top: 50px;
+          padding-top: 60px;
+          font-size: 35px;
+        }
+        .cards{
+        background:rgb(255, 255, 255, 0.1);
+        padding: 2rem;
+        border-radius: 15px;
+        text-align: center;
+        backdrop-filter: blur (10px);
+        border: 1px solid rgb(255, 255, 255, 0.2);
+        margin-top: 40px;
+        margin-bottom: 20px;
+        }
+       }
+
+       .process-section{
+   padding: 80px 0;
+   background: #f8f9fa;
+       }
+            .process-steps{
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+              gap: 2rem;
+              position: relative;
+            }
+          .step-card{
+     background: white;
+     padding: 2rem;
+     border-radius: 15px;
+     text-align: center;
+     box-shadow: 0 10px 30px rgb(0, 0, 0,0.1);
+     position: relative;
+          }
+       .step-number{
+      width: 60px;
+      height: 60px;
+        background:linear-gradient(135deg,#667eea 0%, #764ba2 100%);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1rem;
+      font-size: 1.5rem;
+      font-weight: bold ;
+      color: white;
+
+       }
+   .step-card h4{
+font-size: 1.2rem;
+font-weight: 600;
+color: #212529;
+margin-bottom: 1rem;
+    }
+    .step-card p{
+      color: #6c757d;
+      line-height: 1.6;
+    }
+    .num1{
+      margin-right: 40px;
+    }
+
+    .admission-cta{
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .heading-section{
+      font-size: 25px;
+    padding-bottom: 20px;
+    }
+
+    .main{
+      color: rgb(179, 179, 179);
+      padding-bottom: 20px;
+      gap: 20px;
+
+
+      .paragraph{
+        padding-top:10px;
+      }
+    }
+
+    .admission-button{
+      button{
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 15px;
+      }
+      .contact-office{
+        outline: none;
+        border: none;
+        color: white;
+        background:linear-gradient(135deg,#667eea 0%, #764ba2 100%);
+      }
+      .Virtual-tour{
+        outline:0px solid #667eeae0;
+        color: #667eea;
+        background-color: white;
+      }
+    }
+   
+  
+     

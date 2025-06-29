@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Saraswati Niketan Secondary School</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    
+   <header>
+      <div class="top-bar">
+        <div class="contact-info">
+          <div class="phone">
+            <i class="fa-solid fa-phone"></i>+977984517236
+          </div>
+          <div class="Email">
+            <i class="fa-solid fa-envelope"></i>SNMV@gmail.com
+          </div>
+        </div>
+        <div class="social-icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-Tiktok"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+      </div>
+      <nav>
+        <div class="logo">
+          <img src="./Images/logo.jpg" alt="" />
+        </div>
+        <div class="nav-item">
+          <li>
+            <a href="./">
+              <i class="fa-solid fa-home"></i>
+              home
+            </a>
+          </li>
+    <li>
+            <a href="./">
+              <i class="fa-solid fa-info-circle"></i>
+              About
+            </a>
+          </li>
+              <li>
+            <a href="./">
+              <i class="fa-solid fa-graduction-cap"></i>
+              Academics
+            </a>
+          </li>
+              <li>
+            <a href="./">
+              <i class="fa-solid fa-users"></i>
+              Community
+            </a>
+          </li>
+              <li>
+            <a href="./">
+              <i class="fa-solid fa-phone"></i>
+              contact
+            </a>
+          </li>
+              <li>
+            <a href="./" class="login-btn">
+              <i class="fa-solid fa-right-to-bracket"></i>
+              Login
+            </a>
+          </li>
+              <li>
+            <a href="./" class="admission-btn">
+              <i class="fa-solid fa-user-plus"></i>
+              Addmission open
+            </a>
+          </li>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <!-- Contact Banner -->
+        <section class="contact-banner">
+            <div class="banner-overlay"></div>
+            <div class="banner-content">
+                <h1>Contact Us</h1>
+                <p>Get in touch with us - we'd love to hear from you!</p>
+            </div>
+        </section>
+
+        <!-- Contact Information Section -->
+        <section class="contact-info-section">
+            <div class="container">
+                <h2 class="section-title">Contact Information</h2>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone Number</h3>
+                            <p>+97701-5355489</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email Address</h3>
+                            <p>snmvschool@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Our Location</h3>
+                            <p>Brahma Tole, Teku, Kathmandu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form and Map Section -->
+        <section class="contact-form-section">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="form-container">
+                        <h2>Send us a Message</h2>
+                        <form id="contactForm" method="post" class="contact-form">
+                            <input type="hidden" name="formid" value="gutena_forms_ID_76158cafe_1882024124010">
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">First Name</label>
+                                    <input type="text" id="firstName" name="first_name"
+                                        placeholder="Enter your first name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Last Name</label>
+                                    <input type="text" id="lastName" name="last_name" placeholder="Enter your last name"
+                                        required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Type here"
+                                    required></textarea>
+                            </div>
+
+                            <button type="submit" class="submit-btn">
+                                <i class="fas fa-paper-plane"></i> Submit
+                            </button>
+
+                            <div class="success-message" id="successMessage" style="display: none;">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Your form submitted successfully!</span>
+                            </div>
+
+                            <div class="error-message" id="errorMessage" style="display: none;">
+                                <i class="fas fa-exclamation-circle"></i>
+                                <span>Sorry! Your form was not submitted properly. Please check the errors above.</span>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="map-container">
+                        <h2>Find Us on Map</h2>
+                        <div class="map-wrapper">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.2858324751656!2d85.31088731506284!3d27.70893928280171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb190a74aa1f65%3A0x74ebef82ad0e5c15!2sTeku%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1673891234567!5m2!1sen!2snp"
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Visit Our Campus</h2>
+                    <p>
+                        Experience our facilities firsthand and see how we can benefit your child's education journey.
+                    </p>
+                    <a href="facilities.html" class="btn btn-primary">Explore Our Facilities</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer will be inserted here -->
+    <div id="footer-container">
+        <footer>
+  <div class="footer-contenct">
+    <div class="footer-section">
+      <h4>
+        <i class="fa-solid fa-school"></i>
+        Quick Links 
+      </h4>
+        <p>home
+          <i class="fa-solid fa-house" style="color: #17d359;"></i>
+        </p>
+        <p>About Us
+          <i class="fa-solid fa-circle-info" style="color: #1e8fe6;"></i>
+        </p>
+        <p>Programs
+      <i class="fa-solid fa-graduation-cap" style="color: #a34da0;"></i>
+        </p>
+        <p>Admission
+    <i class="fa-solid fa-user" style="color: #21a2ab;"></i>
+        </p>
+        <p>Contact
+        <i class="fa-solid fa-phone" style="color: #FFD43B;"></i>
+        </p>
+    </div>
+           <div class="footer-section">
+      <h4>
+       <i class="fa-solid fa-book" style="color: #f99e01;"></i>
+        Academics
+      </h4>
+        <p>Cources
+        </p>
+        <p>Faculty
+          <i class="fa-solid fa-circle-info" style="color: #1e8fe6;"></i>
+        </p>
+        <p>facilities
+  <i class="fa-solid fa-building" style="color: #25da6a;"></i>
+        </p>
+        <p>Events
+        <i class="fa-solid fa-calendar-days" style="color: #e67d05;"></i>
+        </p>
+    </div>
+  
+       <div class="footer-section">
+      <h4>
+      <i class="fa-solid fa-users" style="color: #f29c07;"></i>
+       Student portal
+      </h4>
+        <p>Student Login
+<i class="fa-solid fa-arrow-right-to-bracket" style="color: #168be3;"></i>
+        </p>
+        <p>Assignments
+      <i class="fa-solid fa-clipboard-list" style="color: #0091ff;"></i>
+        </p>
+        <p>Schedule
+<i class="fa-solid fa-calendar" style="color: #0a8ff5;"></i>
+        </p>
+        <p>Grades
+<i class="fa-solid fa-user-graduate" style="color: #0d86e3;"></i>
+        </p>
+    </div>
+
+
+       <div class="footer-section">
+      <h4>
+   <i class="fa-solid fa-envelope" style="color: #e99607;"></i>
+        Contact Info
+      </h4>
+        
+        <p>+97701869525
+   <i class="fa-solid fa-phone" style="color: #28bd4d;"></i>
+        </p>
+        <p>SNMVSCHOOL@gmail.com
+   <i class="fa-solid fa-envelope" style="color: #e94f07;"></i>
+        </p>
+        <p>Kathmadu, Nepal
+       <i class="fa-solid fa-location-dot" style="color: #0d86e3;"></i>
+        </p>
+    </div>
+  </div>
+  <hr>
+  <div class="footer-bottom">
+    <p>❤️&copy;2024 Saraswati Nikten Ma.Vi</p>
+  </div>
+</footer>
+    </div>
+
+    <script src="../assets/js/utils.js"></script>
+    <script src="../assets/js/page-templates.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
