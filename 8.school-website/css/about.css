@@ -1,0 +1,250 @@
+.about-banner {
+  height: 50vh;
+  width: 100vw;
+  background: url("https://images.unsplash.com/photo-1599725427295-6ed79ff8dbef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  color: white;
+
+  .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: #00000097;
+    position: absolute;
+  }
+  h1,
+  p {
+    z-index: 1;
+    text-shadow: 1px 2px 4px #000000bf;
+  }
+  h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+.vision-section {
+  height: 70vh;
+  gap: 70px;
+  display: flex;
+  padding: 80px;
+
+  .vision,
+  .mission {
+    text-align: center;
+    box-shadow: 0 1px 2px 4px #8dcfbc85;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  h3 {
+    margin: 20px 0;
+    font-size: 25px;
+    color: #3498db;
+  }
+  p {
+    color: #2c3e50;
+  }
+}
+.icon {
+  font-size: 45px;
+  margin-top: 30px;
+}
+.principal-Message {
+  display: flex;
+  gap: 50px;
+  padding: 80px;
+
+  .principal-card {
+    border-radius: 10px;
+    img {
+      width: 450px;
+      border-radius: 10px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    .principal-info {
+      background-color: #3498db;
+      color: white;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      padding: 25px;
+
+      p {
+        margin-top: 15px;
+      }
+
+      h3 {
+        font-size: 23px;
+      }
+    }
+  }
+}
+.school-journey{
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  padding: 80px 0;
+
+  
+    h1{
+      font-size: 40px;
+      text-align: center;
+      margin-bottom: 100px;
+      color: #3498db;
+    }
+}
+.timeline{
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+
+
+}
+.timeline-item{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+}
+.timeline-card{
+    position: absolute;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #0000000d;
+    width: 300px;
+
+    h3{
+      color: #3498db;
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    p{
+      color: #2c3e50;
+    }
+}
+.timeline-date p{
+    font-size: 20px;
+    color: white;
+    background-color: #3498db;
+    padding: 16px 24px;
+    border-radius: 30px;
+    font-weight: 700;
+    box-shadow: 0 4px 10px #0000001a;
+    margin-bottom: 100px;
+}
+.left-card{
+  right:500px;
+  text-align: right;
+}
+.right-card{
+  left: 500px;
+}
+.timeline::before{
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+width: 4px;
+height: 80%;
+background-color: #3498db;
+}
+.fa-book{
+  position: absolute;
+  right: 900px;
+
+  color: white;
+  background-color: orangered;
+  padding: 0px;
+  font-size: 25px;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 2px 2px 10px 0px #ff3d0085;
+}
+ .school-values{
+        height: 100vh;
+        border-color: #f8f9fa;
+        padding: 50px 40px;
+    }
+    .school-card{
+        h1{
+            font-size: 50px;
+            font-weight: 600;
+            color:#2c3e50;
+        }
+        p{
+            color: #2c3e50;
+            margin-top: 15px;
+        }
+    }
+
+    .school-name{
+        display: flex;
+        gap: 50px;
+        .card{
+            background-color: white;
+            box-shadow:0 10px 25px #0000001a;
+            border-radius: 10px;
+            gap: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+      }
+       
+    .why-choose-card-container{
+        height: 100vh;
+        border-color: #f8f9fa;
+        padding: 0;
+    }
+    .Why-choose-heading{
+        h1{
+            font-size: 50px;
+            font-weight: 600;
+            color:blue;
+            text-align: center;
+            border-bottom: 3px solid #667eea;
+        }
+        p{
+            color: #2c3e50;
+            margin-top: 15px;
+        }
+    }
+
+    .why-choose-card-container{
+        display: flex;
+        gap: 50px;
+        .card{
+            background-color: white;
+            box-shadow:0 10px 25px #0000001a;
+            border-radius: 10px;
+            gap: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+         
+        }
+        p{
+            color: #2c3e50;
+            text-align: justify;
+            padding: 0 32px 32px 32px;
+        }
+        .feature-icon{
+            font-size: 45px;
+        }
+    }
+    .knowledge{
+      background-color: #3498db;
+      color: white;
+      text-align: center;
+      padding: 3rem;
+      border: 10px;
+    }
+    
