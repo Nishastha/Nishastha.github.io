@@ -1,0 +1,358 @@
+.admission-banner {
+  height: 50vh;
+  width: 100vw;
+  background: url("https://images.unsplash.com/photo-1535982330050-f1c2fb79ff78?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  color: white;
+
+  .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: #00000097;
+    position: absolute;
+  }
+  h1,
+  p {
+    z-index: 1;
+    text-shadow: 1px 2px 4px #000000bf;
+  }
+  h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 20px;
+  }
+  h3 {
+    color: white !important;
+    padding: 20px 30px;
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    z-index: 100;
+    border-radius: 60px;
+    margin-top: 30px;
+  }
+}
+.quick-info {
+  padding: 40px;
+  background-color: #f8f9fa;
+  h2 {
+    color: #212529;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    background-color: white;
+    box-shadow: 0 20px 40px #00000026;
+    padding: 35px;
+    border-radius: 10px;
+    i {
+      background-color: #667eea;
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      color: white;
+      font-size: 30px;
+      align-content: center;
+    }
+    h3 {
+      color: #212529;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    p {
+      color: #6c757d;
+      font-size: 16px;
+    }
+  }
+}
+.admission-requirement {
+  padding: 50px;
+  h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 50px;
+  }
+  .card-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    .card {
+      padding: 40px;
+      background-color: #f8f9fa;
+      border-radius: 15px;
+      border-left: 5px solid #3498db;
+    }
+    .card-title {
+      font-size: 24px;
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      color: #3498db;
+      margin-bottom: 20px;
+    }
+    .card-content {
+      color: #495057;
+      p {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+footer {
+  height: 50vh;
+  background-color: #34495e;
+  color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-contenct {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  align-items: center;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 25px 0;
+}
+.application-from {
+  padding: 80px;
+}
+.form-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: lightgray;
+  box-shadow: 0 10px 30px #0000001a;
+  border-radius: 15px;
+  h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 2rem;
+  }
+}
+.form-section {
+  padding: 25px;
+  border-radius: 10px;
+  border-left: 5px solid #3498db;
+  background-color: white;
+  margin-bottom: 30px;
+  h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    color: #3498db;
+  }
+}
+.form-row {
+  display: flex;
+  gap: 30px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1;
+  margin-bottom: 30px;
+  label {
+    font-weight: 600;
+    color: #212529;
+    font-size: 0.95rem;
+  }
+  input,
+  select,
+  textarea {
+    padding: 1rem;
+    border-radius: 8px;
+    border: 2px solid#e9ecef;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background: white;
+  }
+  input:focus,
+  select:focus,
+  textarea:focus {
+    outline: none;
+    border: 3px solid blueviolet;
+  }
+}
+.upload {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 20px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #e9ecef;
+
+  p {
+    font-size: 40px;
+  }
+  a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  span {
+    font-size: 15px;
+    color: #6c757d;
+  }
+}
+.upload:hover {
+  border: 3px dashed #3498db;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+button {
+  border: none;
+  outline: none;
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+}
+.submit-button {
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+}
+.reset-button {
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+}
+.application-process {
+  background-color: rgb(241, 239, 239);
+  height: 80vh;
+  h2 {
+    text-align: center;
+    padding: 70px;
+  }
+
+  .cards-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    font-style: bold;
+  }
+  .card2 {
+    background-color: white;
+    box-shadow: 4px 4px 8px #0000005e;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width: 200px;
+
+    h1 {
+      color: white;
+      background-color: blue;
+      height: 40px;
+      border-radius: 50%;
+      width: 50px;
+      text-decoration: center;
+      padding-top: 5px;
+      margin: 20px auto;
+    }
+  }
+}
+.admission-dates {
+  background-color: rgba(211, 211, 211, 0.953);
+  margin-top: 50px;
+
+  h1 {
+    text-align: center !important;
+    font-size: 40px;
+    padding-top: 40px;
+  }
+  .Why-choose-card-container {
+    margin-top: 50px;
+    display: flex;
+    color: white;
+
+    .cards {
+      background: linear-gradient(135deg, #0a40e2 0%, #7b0fdf 100%);
+      padding: 2rem;
+      border-radius: 15px;
+      text-align: center;
+      border: 1px solid rgb(255, 255, 255, 0.2);
+      border: 1px solid rgb(255, 255, 255, 0.2);
+      max-width: 30%;
+      border-radius: 10px;
+      box-shadow: 3px 3px 12px #000000bf;
+      position: relative;
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-bottom: 30px;
+    }
+    h3 {
+      color: white;
+    }
+  }
+}
+.admission-cta{
+  padding: 20px;
+  text-align: center !important;
+  display: flex;
+  flex-direction: column;
+  p{
+    color: rgb(62, 57, 57);
+    padding: 20px;
+
+  }
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+button {
+  border: none;
+  outline: none;
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+}
+.contact-button {
+  background: linear-gradient(135deg, #c686d0 0%, #c686d0 100%);
+}
+.virtual-button{
+  color: rgb(107, 93, 195);
+  outline: 1px solid  rgb(107, 93, 195);
+}

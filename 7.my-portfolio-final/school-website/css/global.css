@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat, sans-serif;
+
+}
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #34495e;
+  color: white;
+  padding: 5px 10px;
+}
+.contact-info {
+  display: flex;
+  gap: 15px;
+}
+.logo img {
+  height: 100px;
+  width: auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+.nav-item {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+  a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 600;
+    i {
+      margin-right: 8px;
+    }
+  }
+}
+.login-btn,
+.join-us {
+  background-color: #3498db;
+  padding: 8px 15px;
+  color: white !important;
+  border-radius: 10px;
+}
+.admission-btn,
+.learn-more {
+  background-color: rgb(255, 0, 0);
+  padding: 8px 15px;
+  color: white !important;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+}
+
