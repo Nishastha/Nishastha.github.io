@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Er. Susan Adhikari",
+    "position": "Engineering co-ordinator",
+    "image": "../assets/images/tec1.jpg",
+    "linkedin": "#"
+  },
+  {
+    "id": 2,
+    "name": "Er.Manoj sapkota",
+    "position": "Engineering Instructor",
+    "image": "../assets/images/manojsir.jpg",
+    "linkedin": "#"
+  },
+  {
+    "id": 3,
+    "name": "Er. Surendra Khadka",
+    "position": "Engineering Instructor",
+    "image": "../assets/images/surendrasir.jpg",
+    "linkedin": "#"
+  },
+  {
+    "id": 4,
+    "name": "Er. Anish Maharjan",
+    "position": "Engineering Instructor",
+    "image": "../assets/images/tec4.jpg",
+    "linkedin": "#"
+  },
+  {
+    "id": 4,
+    "name": "Er. Pramod Acharaya",
+    "position": "Engineering Instructor",
+    "image": "../assets/images/pramodsir.jpeg",
+    "linkedin": "#"
+  }
+]

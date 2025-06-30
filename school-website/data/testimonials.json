@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Rajesh Maharjan",
+    "position": "Software Engineer at Google",
+    "graduationYear": "Class of 2018",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+    "testimonial": "The computer engineering program at SNMV gave me the foundation I needed to succeed in the tech industry. The hands-on experience and quality teaching prepared me for real-world challenges."
+  },
+  {
+    "id": 2,
+    "name": "Priya Sharma",
+    "position": "Full Stack Developer at Microsoft",
+    "graduationYear": "Class of 2019",
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+    "testimonial": "SNMV's technical education program opened doors to opportunities I never imagined. The OJT program was particularly valuable in gaining real industry experience."
+  },
+  {
+    "id": 3,
+    "name": "Anil Thapa",
+    "position": "CEO, TechStart Nepal",
+    "graduationYear": "Class of 2017",
+    "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+    "testimonial": "The strong foundation in electronics and programming from SNMV helped me start my own tech company. The teachers were incredibly supportive throughout my journey."
+  },
+  {
+    "id": 4,
+    "name": "Sita Gurung",
+    "position": "Cybersecurity Analyst at IBM",
+    "graduationYear": "Class of 2020",
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+    "testimonial": "The practical approach to learning at SNMV made all the difference. I'm now working as a cybersecurity analyst and I owe my success to the solid foundation I received here."
+  },
+  {
+    "id": 5,
+    "name": "Kumar Shrestha",
+    "position": "Data Scientist at Facebook",
+    "graduationYear": "Class of 2019",
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+    "testimonial": "SNMV's computer engineering program prepared me not just technically, but also helped develop problem-solving skills that are essential in the tech field."
+  },
+  {
+    "id": 6,
+    "name": "Bikash Rai",
+    "position": "ML Engineer at Tesla",
+    "graduationYear": "Class of 2018",
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+    "testimonial": "The combination of theoretical knowledge and practical experience at SNMV gave me the confidence to pursue higher studies abroad and excel in my career."
+  }
+]

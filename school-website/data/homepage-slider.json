@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "image": "../assets/images/home-banner-6.jpg",
+    "alt": "Welcome to Our School",
+    "title": "WELCOME TO SARASWATI NIKETAN",
+    "subtitle": "WHERE EXCELLENCE MEETS TRADITION",
+    "buttons": [
+      {
+        "text": "JOIN US",
+        "link": "admission.html",
+        "class": "btn btn-primary"
+      },
+      {
+        "text": "LEARN MORE",
+        "link": "about.html",
+        "class": "btn btn-secondary"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "../assets/images/home-banner-7.jpg",
+    "alt": "Computer Engineering Program",
+    "title": "TECHNICAL EDUCATION",
+    "subtitle": "COMPUTER ENGINEERING PROGRAM",
+    "buttons": [
+      {
+        "text": "EXPLORE COURSES",
+        "link": "courses.html",
+        "class": "btn btn-primary"
+      },
+      {
+        "text": "VIEW LABS",
+        "link": "facilities.html",
+        "class": "btn btn-secondary"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "../assets/images/home-banner-5.jpg",
+    "alt": "Modern Facilities",
+    "title": "LEARN WITH THE BEST",
+    "subtitle": "CUTTING EDGE FACILITIES",
+    "buttons": [
+      {
+        "text": "DISCOVER",
+        "link": "facilities.html",
+        "class": "btn btn-primary"
+      },
+      {
+        "text": "VISIT CAMPUS",
+        "link": "contact.html",
+        "class": "btn btn-secondary"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "../assets/images/home-banner-2.jpg",
+    "alt": "School Events & Activities",
+    "title": "VIBRANT SCHOOL LIFE",
+    "subtitle": "EVENTS, CULTURE & ACHIEVEMENTS",
+    "buttons": [
+      {
+        "text": "VIEW GALLERY",
+        "link": "events-and-gallery.html",
+        "class": "btn btn-primary"
+      },
+      {
+        "text": "READ STORIES",
+        "link": "blog.html",
+        "class": "btn btn-secondary"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "../assets/images/home-banner-3.jpg",
+    "alt": "Student Success",
+    "title": "DISCOVER YOUR POTENTIAL",
+    "subtitle": "75+ YEARS OF EDUCATIONAL EXCELLENCE",
+    "buttons": [
+      {
+        "text": "OUR HISTORY",
+        "link": "about.html",
+        "class": "btn btn-primary"
+      },
+      {
+        "text": "LATEST NEWS",
+        "link": "news.html",
+        "class": "btn btn-secondary"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "../assets/images/home-banner-4.jpg",
+    "alt": "Quality Education",
+    "title": "QUALITY EDUCATION FOR ALL",
+    "subtitle": "NURSERY TO GRADE 12",
+    "buttons": [
+      {
+        "text": "APPLY NOW",
+        "link": "admission.html",
+        "class": "btn btn-primary"
+      },
+      {
+        "text": "CONTACT US",
+        "link": "contact.html",
+        "class": "btn btn-secondary"
+      }
+    ]
+  }
+]

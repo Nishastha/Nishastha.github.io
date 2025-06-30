@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Admission Open for 2025-26 Academic Year",
+    "content": "We are pleased to announce that admissions are now open for the 2025-26 academic year. Apply now for Computer Engineering program from Grade 9 to 12.",
+    "date": "2025-06-15",
+    "category": "admission",
+    "priority": "high",
+    "author": "Administration",
+    "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 2,
+    "title": "Summer Vacation Schedule Announced",
+    "content": "The summer vacation will commence from July 1, 2025. Classes will resume on August 15, 2025. Students are advised to complete their vacation assignments.",
+    "date": "2025-06-10",
+    "category": "schedule",
+    "priority": "medium",
+    "author": "Academic Department",
+    "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 3,
+    "title": "Annual Sports Day Competition Results",
+    "content": "Congratulations to all participants of our Annual Sports Day. Red House emerged as the overall champion. Full results are available on our website.",
+    "date": "2025-06-05",
+    "category": "events",
+    "priority": "medium",
+    "author": "Sports Department",
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 4,
+    "title": "Parent-Teacher Meeting Scheduled",
+    "content": "A parent-teacher meeting is scheduled for next month to discuss student progress and upcoming examinations. Date and time will be communicated soon.",
+    "date": "2025-05-28",
+    "category": "meeting",
+    "priority": "medium",
+    "author": "Administration",
+    "image": "https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 5,
+    "title": "New Computer Lab Equipment Installed",
+    "content": "We have upgraded our computer laboratory with latest hardware and software to enhance the learning experience for our students.",
+    "date": "2025-05-20",
+    "category": "facilities",
+    "priority": "low",
+    "author": "IT Department",
+    "image": "https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  }
+]

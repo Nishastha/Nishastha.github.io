@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Blog Post - Saraswati Niketan Secondary School</title>
+  <link rel="stylesheet" href="../assets/css/global.css" />
+  <link rel="stylesheet" href="../assets/css/blog.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="top-bar">
+    <div class="top-bar-content">
+      <div class="contact-info">
+        <span>📞 +97701-5355489</span>
+        <span>✉️ snmvschool@gmail.com</span>
+      </div>
+      <div class="social-links">
+        <a href="#" title="Facebook">📘</a>
+        <a href="#" title="Twitter">🐦</a>
+        <a href="#" title="LinkedIn">💼</a>
+        <a href="#" title="Instagram">📸</a>
+        <a href="#" title="YouTube">📺</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="main-header">
+    <div class="nav-logo">
+      <img src="../assets/images/logo.png" alt="School Logo" />
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle">Academics</a>
+          <div class="dropdown-menu">
+            <a href="courses.html">Courses</a>
+            <a href="facilities.html">Facilities</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle active">Community</a>
+          <div class="dropdown-menu">
+            <a href="news.html">News & Notices</a>
+            <a href="blog.html" class="active">Blog</a>
+            <a href="events-and-gallery.html">Events</a>
+          </div>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html" class="login-btn">Login</a></li>
+        <li>
+          <a href="admission.html" class="admission-btn">Admission Open</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Create Blog Banner -->
+    <section class="blog-banner">
+      <div class="banner-overlay"></div>
+      <div class="banner-content">
+        <h1>Create New Blog Post</h1>
+        <p>Share your thoughts, stories, and updates with the school community</p>
+      </div>
+    </section>
+
+    <!-- Blog Creation Form Section -->
+    <section class="create-blog-section">
+      <div class="container">
+        <div class="form-container">
+          <div class="section-header">
+            <h2>Write Your Blog Post</h2>
+            <p>Fill in the details below to create and publish your blog post</p>
+          </div>
+
+          <form id="blogForm" class="blog-form">
+            <div class="form-group">
+              <label for="title">
+                <i class="fas fa-heading"></i> Blog Title
+              </label>
+              <input type="text" id="title" name="title" placeholder="Enter an engaging title for your blog post"
+                required />
+            </div>
+
+            <div class="form-group">
+              <label for="author">
+                <i class="fas fa-user"></i> Author Name
+              </label>
+              <input type="text" id="author" name="author" placeholder="Your name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="category">
+                <i class="fas fa-tag"></i> Category
+              </label>
+              <select id="category" name="category" required>
+                <option value="">Select a category</option>
+                <option value="academic">Academic</option>
+                <option value="sports">Sports</option>
+                <option value="events">Events</option>
+                <option value="achievements">Achievements</option>
+                <option value="announcements">Announcements</option>
+                <option value="student-life">Student Life</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="image">
+                <i class="fas fa-image"></i> Featured Image URL
+              </label>
+              <input type="url" id="image" name="image" placeholder="https://example.com/image.jpg (optional)" />
+              <small class="form-help">Add a URL to an image that represents your blog post</small>
+            </div>
+
+            <div class="form-group">
+              <label for="excerpt">
+                <i class="fas fa-align-left"></i> Short Description
+              </label>
+              <textarea id="excerpt" name="excerpt" rows="3"
+                placeholder="Write a brief summary of your blog post (2-3 sentences)" required></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="content">
+                <i class="fas fa-edit"></i> Blog Content
+              </label>
+              <textarea id="content" name="content" rows="12" placeholder="Write your full blog post content here..."
+                required></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="tags">
+                <i class="fas fa-tags"></i> Tags
+              </label>
+              <input type="text" id="tags" name="tags"
+                placeholder="Enter tags separated by commas (e.g., education, technology, sports)" />
+              <small class="form-help">Tags help readers find your content more easily</small>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="submit-btn">
+                <i class="fas fa-paper-plane"></i> Publish Blog Post
+              </button>
+              <a href="blog.html" class="cancel-btn">
+                <i class="fas fa-times"></i> Cancel
+              </a>
+            </div>
+          </form>
+
+          <!-- Success Message -->
+          <div class="success-message" id="successMessage" style="display: none;">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>Blog Post Created Successfully!</h4>
+              <p>Your blog post has been published and is now live.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Writing Tips Section -->
+    <section class="writing-tips-section">
+      <div class="container">
+        <div class="tips-container">
+          <h3>Writing Tips for Great Blog Posts</h3>
+          <div class="tips-grid">
+            <div class="tip-card">
+              <div class="tip-icon">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              <h4>Choose an Engaging Title</h4>
+              <p>Make your title clear, descriptive, and interesting to attract readers.</p>
+            </div>
+            <div class="tip-card">
+              <div class="tip-icon">
+                <i class="fas fa-paragraph"></i>
+              </div>
+              <h4>Structure Your Content</h4>
+              <p>Use short paragraphs, bullet points, and clear sections for better readability.</p>
+            </div>
+            <div class="tip-card">
+              <div class="tip-icon">
+                <i class="fas fa-spell-check"></i>
+              </div>
+              <h4>Proofread Carefully</h4>
+              <p>Check for spelling, grammar, and factual errors before publishing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="facilities.html">Facilities</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Student Zone</h3>
+        <ul>
+          <li><a href="login.html">Student Login</a></li>
+          <li><a href="#">Study Materials</a></li>
+          <li><a href="#">Academic Calendar</a></li>
+          <li><a href="#">Examination</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="#">Library</a></li>
+          <li><a href="#">Research</a></li>
+          <li><a href="#">Career</a></li>
+          <li><a href="#">Events</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Connect With Us</h3>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Saraswati Niketan Secondary School. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('blogForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      // Get form data
+      const formData = new FormData(this);
+      const blogData = {
+        title: formData.get('title'),
+        author: formData.get('author'),
+        category: formData.get('category'),
+        image: formData.get('image'),
+        excerpt: formData.get('excerpt'),
+        content: formData.get('content'),
+        tags: formData.get('tags'),
+        date: new Date().toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric'
+        })
+      };
+
+      // Simulate form submission
+      setTimeout(() => {
+        // Hide form and show success message
+        this.style.display = 'none';
+        document.getElementById('successMessage').style.display = 'flex';
+
+        // Scroll to success message
+        document.getElementById('successMessage').scrollIntoView({
+          behavior: 'smooth'
+        });
+
+        // Redirect to blog page after 3 seconds
+        setTimeout(() => {
+          window.location.href = 'blog.html';
+        }, 3000);
+      }, 1000);
+    });
+
+    // Character counter for content textarea
+    const contentTextarea = document.getElementById('content');
+    const excerptTextarea = document.getElementById('excerpt');
+
+    function addCharacterCounter(textarea, minLength = 100) {
+      const counter = document.createElement('small');
+      counter.className = 'character-counter';
+      textarea.parentNode.appendChild(counter);
+
+      textarea.addEventListener('input', function () {
+        const length = this.value.length;
+        counter.textContent = `${length} characters`;
+
+        if (length < minLength) {
+          counter.style.color = '#dc3545';
+          counter.textContent += ` (minimum ${minLength} recommended)`;
+        } else {
+          counter.style.color = '#28a745';
+        }
+      });
+    }
+
+    addCharacterCounter(contentTextarea, 200);
+    addCharacterCounter(excerptTextarea, 50);
+  </script>
+</body>
+
+</html>

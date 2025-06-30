@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Detail - Saraswati Niketan Secondary School</title>
+  <link rel="stylesheet" href="../assets/css/global.css" />
+  <link rel="stylesheet" href="../assets/css/blog.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="top-bar">
+    <div class="top-bar-content">
+      <div class="contact-info">
+        <span>📞 +97701-5355489</span>
+        <span>✉️ snmvschool@gmail.com</span>
+      </div>
+      <div class="social-links">
+        <a href="#" title="Facebook">📘</a>
+        <a href="#" title="Twitter">🐦</a>
+        <a href="#" title="LinkedIn">💼</a>
+        <a href="#" title="Instagram">📸</a>
+        <a href="#" title="YouTube">📺</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="main-header">
+    <div class="nav-logo">
+      <img src="../assets/images/logo.png" alt="School Logo" />
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle">Academics</a>
+          <div class="dropdown-menu">
+            <a href="courses.html">Courses</a>
+            <a href="facilities.html">Facilities</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle active">Community</a>
+          <div class="dropdown-menu">
+            <a href="news.html">News & Notices</a>
+            <a href="blog.html" class="active">Blog</a>
+            <a href="events-and-gallery.html">Events</a>
+          </div>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html" class="login-btn">Login</a></li>
+        <li><a href="admission.html" class="admission-btn">Admission Open</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Blog Detail Section -->
+    <section class="blog-detail-section">
+      <div class="container">
+        <article class="blog-detail">
+          <img
+            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+            alt="Blog Detail Image" class="blog-hero-image" />
+          <div class="blog-content">
+            <h1 id="blogTitle">Loading...</h1>
+            <div class="post-meta">
+              <time id="blogDate">Loading...</time>
+              <span class="author">by <span id="blogAuthor">Loading...</span></span>
+            </div>
+            <div id="blogContent">
+              <p>Loading content...</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="blog-cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Explore More Articles</h2>
+          <p>
+            Discover more inspiring stories and updates from our school community.
+          </p>
+          <a href="blog.html" class="btn-primary">
+            <i class="fas fa-arrow-left"></i> Back to Blog
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>// ...same footer as blog.html...</footer>
+
+  <script>
+    // Simple script to get blog ID from URL and load content
+    const urlParams = new URLSearchParams(window.location.search);
+    const blogId = urlParams.get("id");
+
+    // Enhanced blog data with more detailed content
+    const blogData = {
+      1: {
+        title: "Latest Campus Technology Updates",
+        date: "May 10, 2025",
+        author: "Admin",
+        content: `
+            <p>At Saraswati Niketan Secondary School, we are committed to providing our students with cutting-edge technology that enhances their learning experience and prepares them for the digital future. This semester, we have implemented several significant technological upgrades across our campus.</p>
+            
+            <p>Our computer labs have been equipped with the latest hardware and software, featuring high-performance computers with advanced processors and graphics capabilities. Students now have access to industry-standard programming environments, design software, and collaborative tools that mirror what they'll encounter in their future careers.</p>
+            
+            <p>We've also introduced smart classroom technology, including interactive whiteboards, wireless presentation systems, and integrated audio-visual equipment. These tools enable our teachers to create more engaging, interactive lessons that cater to different learning styles and help students better understand complex concepts.</p>
+            
+            <p>Additionally, our school-wide Wi-Fi network has been upgraded to provide faster, more reliable internet connectivity throughout the campus. This ensures that students and faculty can seamlessly access online resources, participate in virtual collaborations, and utilize cloud-based educational platforms.</p>
+            
+            <p>These technological enhancements represent our ongoing commitment to providing world-class education and ensuring our students are well-prepared for the challenges and opportunities of the 21st century.</p>
+          `,
+      },
+      2: {
+        title: "Student Success Stories",
+        date: "May 5, 2025",
+        author: "Faculty Member",
+        content: `
+            <p>Our students continue to excel and make us proud with their outstanding achievements in academics, sports, and extracurricular activities. Here are some inspiring success stories from our school community.</p>
+            
+            <p>Priya Sharma from Grade 12 recently won the National Science Olympiad, securing first place in the Physics category. Her innovative project on renewable energy solutions impressed judges and demonstrated the practical application of scientific principles to real-world problems.</p>
+            
+            <p>In sports, our basketball team led by captain Rohit Thapa clinched the Inter-School Championship title. The team's dedication, teamwork, and countless hours of practice paid off in this remarkable achievement.</p>
+            
+            <p>We're also proud of our debate team, which secured second place in the Regional Debate Competition. Students demonstrated exceptional critical thinking, research skills, and public speaking abilities.</p>
+            
+            <p>These achievements reflect not only individual talent but also the supportive environment and quality education we provide at Saraswati Niketan Secondary School.</p>
+          `,
+      },
+      3: {
+        title: "Campus Life Highlights",
+        date: "April 28, 2025",
+        author: "Student Contributor",
+        content: `
+            <p>Life at Saraswati Niketan Secondary School is vibrant, diverse, and full of opportunities for growth and discovery. From academic pursuits to cultural celebrations, our campus buzzes with activity throughout the year.</p>
+            
+            <p>This month, we celebrated our annual Cultural Festival, showcasing the rich diversity of our student body. Students performed traditional dances, presented musical performances, and displayed artwork representing various cultural backgrounds.</p>
+            
+            <p>Our eco-club continues to make significant contributions to environmental sustainability on campus. They've successfully implemented waste segregation programs, organized tree-planting drives, and created awareness about climate change through various initiatives.</p>
+            
+            <p>The student council has been actively working on improving campus facilities and organizing events that bring the community together. Their leadership and initiative demonstrate the values we instill in our students.</p>
+            
+            <p>These activities create lasting memories and help develop well-rounded individuals who are prepared for future challenges.</p>
+          `,
+      },
+    };
+
+    // Update the page content
+    if (blogData[blogId]) {
+      document.getElementById("blogTitle").textContent = blogData[blogId].title;
+      document.getElementById("blogDate").textContent = blogData[blogId].date;
+      document.getElementById("blogAuthor").textContent = blogData[blogId].author;
+      document.getElementById("blogContent").innerHTML = blogData[blogId].content;
+    } else {
+      document.getElementById("blogTitle").textContent = "Article Not Found";
+      document.getElementById("blogDate").textContent = "";
+      document.getElementById("blogAuthor").textContent = "";
+      document.getElementById("blogContent").innerHTML = "<p>Sorry, the requested article could not be found.</p>";
+    }
+  </script>
+</body>
+
+</html>

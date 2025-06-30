@@ -1,0 +1,42 @@
+{
+  "scripts": {
+    "core": [
+      "../assets/js/utils.js",
+      "../assets/js/main.js"
+    ],
+    "content": [
+      "../assets/js/content-manager.js"
+    ],
+    "components": [
+      "../assets/js/page-components.js"
+    ],
+    "homepage": [
+      "../assets/js/homepage-components.js",
+      "../assets/js/slider.js"
+    ],
+    "admin": [
+      "../assets/js/admin.js"
+    ],
+    "student": [
+      "../assets/js/student.js"
+    ],
+    "auth": [
+      "../assets/js/auth.js"
+    ]
+  },
+  "pageConfigs": {
+    "index.html": ["core", "content", "homepage"],
+    "news.html": ["core", "content", "components"],
+    "blog.html": ["core", "content", "components"],
+    "events-and-gallery.html": ["core", "content", "components"],
+    "faculties.html": ["core", "content", "components"],
+    "courses.html": ["core", "content", "components"],
+    "news-detail.html": ["core", "content", "components"],
+    "blog-detail.html": ["core", "content", "components"],
+    "login.html": ["core", "auth"],
+    "contact.html": ["core"],
+    "about.html": ["core"],
+    "admission.html": ["core"],
+    "facilities.html": ["core"]
+  }
+}

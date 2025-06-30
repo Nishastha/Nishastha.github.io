@@ -1,0 +1,260 @@
+/* News & Notices Page Styles */
+
+/* Page Banner - Same style as about page */
+.page-banner {
+  height: 50vh;
+  background-image: url("https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.banner-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.banner-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner-content p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Notices Section */
+.notices-section {
+  padding: 5rem 0;
+  background-color: var(--bg-white);
+}
+
+.notices-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tab-btn {
+  background-color: #f8f9fa;
+  color: var(--text-dark);
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: 500;
+}
+
+.tab-btn:hover,
+.tab-btn.active {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.notices-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.notice-card {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.notice-card:hover {
+  transform: translateY(-5px);
+}
+
+.notice-date {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-width: 120px;
+}
+
+.day {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.month {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0.3rem 0;
+}
+
+.year {
+  font-size: 1rem;
+}
+
+.notice-content {
+  padding: 1.5rem 2rem;
+  flex: 1;
+}
+
+.notice-badge {
+  display: inline-block;
+  background-color: #e9ecef;
+  color: var(--text-dark);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.notice-card[data-category="notice"] .notice-badge {
+  background-color: #cce5ff;
+  color: #004085;
+}
+
+.notice-card[data-category="academic"] .notice-badge {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.notice-card[data-category="event"] .notice-badge {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.notice-card[data-category="exam"] .notice-badge {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.notice-content h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  color: var(--text-dark);
+}
+
+.notice-content p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-light);
+  margin-bottom: 1rem;
+}
+
+.read-more {
+  display: inline-block;
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.read-more:hover {
+  color: var(--primary-dark);
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.page-btn {
+  background-color: #f8f9fa;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.page-btn.next {
+  width: auto;
+  padding: 0 1rem;
+  border-radius: 20px;
+}
+
+.page-btn:hover,
+.page-btn.active {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .banner-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .notice-card {
+    flex-direction: column;
+  }
+
+  .notice-date {
+    width: 100%;
+    min-width: unset;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .day,
+  .month,
+  .year {
+    font-size: 1rem;
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .tab-btn {
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .notice-content {
+    padding: 1.2rem;
+  }
+
+  .banner-content h1 {
+    font-size: 2rem;
+  }
+}

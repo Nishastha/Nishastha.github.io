@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "title": "The Future of Computer Education in Nepal",
+    "content": "As technology continues to evolve at a rapid pace, the importance of quality computer education has never been more critical. In Nepal, we are witnessing a significant transformation in how technical education is delivered...",
+    "excerpt": "Exploring how computer education is evolving in Nepal and the opportunities it creates for students.",
+    "author": "Er. Rajat Uprety",
+    "date": "2025-06-10",
+    "category": "Education",
+    "tags": ["Computer Science", "Education", "Nepal", "Technology"],
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "readTime": "5 min read"
+  },
+  {
+    "id": 2,
+    "title": "Student Success Stories: From Classroom to Career",
+    "content": "Our alumni continue to make us proud with their achievements in the tech industry. Today, we share inspiring stories of former students who have successfully transitioned from our classrooms to thriving careers...",
+    "excerpt": "Inspiring stories of our graduates who are making a mark in the technology industry.",
+    "author": "Administration",
+    "date": "2025-06-05",
+    "category": "Alumni",
+    "tags": ["Alumni", "Success Stories", "Career", "Technology"],
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "readTime": "7 min read"
+  },
+  {
+    "id": 3,
+    "title": "Preparing Students for the Digital Age",
+    "content": "In today's digital world, traditional teaching methods are no longer sufficient. Our school has embraced innovative teaching methodologies that prepare students for the challenges of the 21st century...",
+    "excerpt": "How we're adapting our teaching methods to prepare students for tomorrow's challenges.",
+    "author": "Er. Ishara Dhakal",
+    "date": "2025-05-28",
+    "category": "Teaching",
+    "tags": ["Digital Learning", "Innovation", "Teaching Methods"],
+    "featured": false,
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "readTime": "4 min read"
+  },
+  {
+    "id": 4,
+    "title": "The Importance of Practical Learning in Technical Education",
+    "content": "Theory without practice is incomplete. Our computer engineering program emphasizes hands-on learning through well-equipped laboratories and real-world projects...",
+    "excerpt": "Why practical learning is essential for technical education and how we implement it.",
+    "author": "Er. Susan Adhikari",
+    "date": "2025-05-20",
+    "category": "Technical",
+    "tags": ["Practical Learning", "Computer Engineering", "Laboratory"],
+    "featured": false,
+    "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "readTime": "6 min read"
+  }
+]
