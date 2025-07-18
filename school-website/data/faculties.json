@@ -21,17 +21,24 @@
     "linkedin": "#"
   },
   {
-    "id": 4,
-    "name": "Er. Anish Maharjan",
+    "id": 3,
+    "name": "Er. Pramod Acharaya",
     "position": "Engineering Instructor",
-    "image": "../assets/images/tec4.jpg",
+    "image": "../assets/images/pramodsir.jpeg",
     "linkedin": "#"
   },
   {
     "id": 4,
-    "name": "Er. Pramod Acharaya",
-    "position": "Engineering Instructor",
-    "image": "../assets/images/pramodsir.jpeg",
+    "name": "Anish Maharjan",
+    "position": "Assistant Instructor",
+    "image": "../assets/images/tec4.jpg",
+    "linkedin": "#"
+  },
+  {
+    "id": 5,
+    "name": "Rawol Maharjan",
+    "position": "Assistant Instructor",
+    "image": "../assets/images/rawalmaharjan.jpg",
     "linkedin": "#"
   }
 ]

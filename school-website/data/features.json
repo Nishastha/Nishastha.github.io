@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Modern Computer Labs",
     "icon": "💻",
-    "image": "https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "image": "https://www.pranish-maharjan.com.np/pictures/computerlab.jpg",
     "alt": "Computer Lab",
     "description": "State-of-the-art computer laboratories equipped with latest technology for hands-on learning experience in programming and software development."
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "title": "Electronics Laboratory",
     "icon": "⚡",
-    "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "image": "https://www.pranish-maharjan.com.np/pictures/electronic.jpg",
     "alt": "Electronics Lab",
     "description": "Advanced electronics lab where students learn to build circuits, work with microcontrollers, and understand electronic components practically."
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "title": "Rich Library Resources",
     "icon": "📚",
-    "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "image": "https://www.pranish-maharjan.com.np/pictures/library.jpg",
     "alt": "Library",
     "description": "Comprehensive library with technical books, research materials, and digital resources to support academic excellence and research activities."
   }

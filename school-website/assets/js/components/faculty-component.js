@@ -5,21 +5,16 @@ class FacultyComponent {
       const response = await fetch("/school-website/data/faculties.json");
       const faculties = await response.json();
 
-
       const facultyGrid = document.querySelector(".faculty-grid");
       if (facultyGrid && faculties.length > 0) {
         facultyGrid.innerHTML = faculties
-          .slice(0, 5)
+          .slice(0, 6)
           .map(
             (faculty) => `
                     <div class="faculty-card">
                         <div class="faculty-image-wrapper">
                             <img src="${faculty.image}" alt="${faculty.name}" />
-                            ${
-                              faculty.linkedin
-                                ? `<a href="${faculty.linkedin}" class="linkedin-icon">in</a>`
-                                : ""
-                            }
+                            
                         </div>
                         <h3 class="faculty-name">${faculty.name}</h3>
                         <p class="faculty-position">${faculty.position}</p>

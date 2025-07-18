@@ -1,19 +1,19 @@
 // Homepage features component
 class FeaturesComponent {
-    static async load() {
-        try {
-            const response = await fetch('../data/features.json');
-            const features = await response.json();
-            
-            const featuresGrid = document.querySelector('.feature-grid');
-            if (featuresGrid && features.length > 0) {
-                featuresGrid.innerHTML = features.map(feature => `
+  static async load() {
+    try {
+      const response = await fetch("../data/features.json");
+      const features = await response.json();
+
+      const featuresGrid = document.querySelector(".feature-grid");
+      if (featuresGrid && features.length > 0) {
+        featuresGrid.innerHTML = features
+          .map(
+            (feature) => `
                     <div class="feature-card">
                         <div class="feature-image">
                             <img src="${feature.image}" alt="${feature.title}" />
-                            <div class="feature-overlay">
-                                <span>${feature.overlayText}</span>
-                            </div>
+                           
                         </div>
                         <div class="feature-content">
                             <div class="feature-icon">${feature.icon}</div>
@@ -21,24 +21,26 @@ class FeaturesComponent {
                             <p>${feature.description}</p>
                         </div>
                     </div>
-                `).join('');
-                return true;
-            }
-            return false;
-        } catch (error) {
-            console.error('Error loading features content:', error);
-            this.loadFallback();
-            return false;
-        }
+                `
+          )
+          .join("");
+        return true;
+      }
+      return false;
+    } catch (error) {
+      console.error("Error loading features content:", error);
+      this.loadFallback();
+      return false;
     }
+  }
 
-    static loadFallback() {
-        const featuresGrid = document.querySelector('.feature-grid');
-        if (featuresGrid) {
-            featuresGrid.innerHTML = `
+  static loadFallback() {
+    const featuresGrid = document.querySelector(".feature-grid");
+    if (featuresGrid) {
+      featuresGrid.innerHTML = `
                 <div class="feature-card">
                     <div class="feature-image">
-                        <img src="https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Modern Facilities" />
+                        <img src="https://www.pranish-maharjan.com.np/pictures/computerlab.jpg" alt="Modern Facilities" />
                         <div class="feature-overlay">
                             <span>Explore Facilities</span>
                         </div>
@@ -76,8 +78,8 @@ class FeaturesComponent {
                     </div>
                 </div>
             `;
-        }
     }
+  }
 }
 
 window.FeaturesComponent = FeaturesComponent;
